@@ -1873,7 +1873,7 @@ XeonBotInc.sendMessage(from, { text: `السؤال : هل ${q}\nالاجابه :
 					if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 				if (!text) return replay(`Use Text, مثال : ${prefix + command} he married `)
-					const lel = [`روح اسأل مامتك`,`مدري`,`اسأل عمك الجزار`,`اسأل جدك يافتى`, `لا اعلم يا صاح`, `لا اعلم اذهب لسؤال ابيك`]
+					const lel = [`روح اسأل مامتك`,`مدري`,`اسأل عمك اياتو`,`اسأل جدك يافتى`, `لا اعلم يا صاح`, `لا اعلم اذهب لسؤال ابيك`]
 					const kahk = lel[Math.floor(Math.random() * lel.length)]
 XeonBotInc.sendMessage(from, { text: `السؤال : ماذا ${q}\nالاجابه : ${kahk}` }, { quoted: m })
 
@@ -2281,7 +2281,7 @@ if (isBan) return reply(mess.ban)
             	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
                if (!isCreator) return replay(`${mess.owner}`)
-               if (!text) return replay(`مثال : ${prefix + command} packname|author`)
+               if (!text) return replay(`مثال : ${prefix + command} تع خد الباقي01126554338|اياتو يروحي`)
           global.packname = text.split("|")[0]
           global.author = text.split("|")[1]
           reply(`Exif Has Been Successfully Changed to\n\n${themeemoji} Packname : ${global.packname}\n${themeemoji} Author : ${global.author}`)
@@ -8756,7 +8756,7 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break
-case 'sc': case 'script': case 'donate': case 'donate': case 'التسجيل': case 'الجزار': case 'cekbot': case 'التبرع': {
+case 'sc': case 'script': case 'donate': case 'donate': case 'التسجيل': case 'اياتو': case 'cekbot': case 'التبرع': {
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 teks = `*「 ${global.botname} التبرع 」*\n\nيوتيوب: ${global.websitex}\nجروب الدعم: ${global.botscript}\n\nلا تنسي الاشتراك بقناه اليوتيوب والانضمام الينا ❤️`
